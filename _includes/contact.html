@@ -45,13 +45,20 @@
 
 				<!-- contact form -->				
 				<div class="col-md-6">
-					<form class="contact-form">
+					<form class="contact-form" action="https://formspree.io/exponenthash@gmail.com" method="POST">
+						<input type="text" class="input" placeholder="Name" name="name">
+						<input type="email" class="input" placeholder="Email" name="_replyto">
+						<input type="text" class="input" placeholder="Subject" name="subject">
+						<textarea class="input" placeholder="Message" name="message"></textarea>
+						<input class="main-btn" type="submit" value="Send">
+					</form>
+					<!--<form class="contact-form">
 						<input type="text" class="input" placeholder="Name">
 						<input type="email" class="input" placeholder="Email">
 						<input type="text" class="input" placeholder="Subject">
 						<textarea class="input" placeholder="Message"></textarea>
 						<button class="main-btn">Send message</button>
-					</form>
+					</form>-->
 				</div>
 				<!-- /contact form -->
 
